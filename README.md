@@ -1,4 +1,4 @@
-# Your custom Twilio Flex Plugin
+# Reject all pending reservations in Twilio Flex
 
 Twilio Flex Plugins enables the rejection of pending all Task Router reservations if the worker (agent) is moved into a timeout state.  For example if the agent is  handling multichannel interactions across voice, sms, chat, (or others) and they miss a voice reservation, Task Router workspace may be configured to change the worker to a specific state. This plugin adds logic to _also_ reject all pending reservations, potentially from other channels or other workflows.
 
